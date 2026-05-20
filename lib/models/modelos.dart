@@ -30,12 +30,4 @@ class Casilla {
     this.minasAdyacentes = 0,
     this.tieneBandera = false,
   });
-
-  // Método auxiliar para limpiar la casilla cuando el jugador reinicie la partida
-  void reiniciar() {
-    tieneMina = false;
-    estaRevelada = false;
-    minasAdyacentes = 0;
-    tieneBandera = false;
-  }
 }
